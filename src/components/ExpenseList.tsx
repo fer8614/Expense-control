@@ -8,7 +8,7 @@ export default function ExpenseList() {
     const isEmpty = useMemo(() => state.expenses.length === 0 , [state.expenses]) 
   return (
     <div className="mt-10"> 
-        { isEmpty ? <p className="text-2xl text-gray-600 font-bold">No expenses yet</p> : (
+        { isEmpty ? <p className="text-2xl text-gray-600 font-bold text-center uppercase">No expenses yet</p> : (
             <>
                 <p className="text-2xl text-gray-600 font-bold my-5">List of expenses</p>
                 { state.expenses.map(expense => (
