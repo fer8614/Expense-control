@@ -1,4 +1,6 @@
-# React + TypeScript + Vite with Context API for global state
+# Web application to control expenses with React + TypeScript + Vite with Context API for global state
+
+link: https://delightful-fox-97e7e1.netlify.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
